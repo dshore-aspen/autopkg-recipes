@@ -15,11 +15,11 @@
             <key>POLICY_CATEGORY</key>
             <string>Testing</string>
             <key>POLICY_TEMPLATE</key>
-            <string>%RECIPE_DIR%/PolicyTemplate.xml</string>
+            <string>PolicyTemplate-Microsoft.xml</string>
             <key>ICON</key>
             <string>%RECIPE_DIR%/MicrosoftEdge.png</string>
             <key>GROUP_TEMPLATE</key>
-            <string>%RECIPE_DIR%/SmartGroupTemplate.xml</string>
+            <string>SmartGroupTemplate-Microsoft.xml</string>
             <key>GROUP_NAME</key>
             <string>Update-Smart-%NAME%</string>
             <key>DESCRIPTION</key>
