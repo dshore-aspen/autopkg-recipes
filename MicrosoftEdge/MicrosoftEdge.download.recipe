@@ -5,7 +5,7 @@
       <key>Description</key>
       <string>Downloads the latest Microsoft Edge installer pkg.</string>
       <key>Identifier</key>
-      <string>com.github.rtrouton.download.microsoftedge</string>
+      <string>com.github.dshore-aspen.download.microsoftedge</string>
       <key>MinimumVersion</key>
       <string>1.0.0</string>
       <key>Input</key>
