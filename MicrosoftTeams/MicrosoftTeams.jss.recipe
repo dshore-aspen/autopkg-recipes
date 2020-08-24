@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads Microsoft Teams disk image, and builds a package and imports it into your JSS.</string>
 	<key>Identifier</key>
-	<string>com.github.rtrouton.jss.microsoftteams</string>
+	<string>com.github.dshore-aspen.jss.microsoftteams</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
@@ -13,13 +13,13 @@
 		<key>GROUP_NAME</key>
 		<string>%NAME%-update-smart</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>SmartGroupTemplate.xml</string>
+		<string>SmartGroupTemplate-Microsoft.xml</string>
 		<key>NAME</key>
 		<string>Microsoft Teams</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Testing</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>PolicyTemplate.xml</string>
+		<string>PolicyTemplate-Microsoft.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>Microsoft Teams is the new chat-centered workspace in Office 365. Keep all your content, tools, people, and conversations together in one place.</string>
 		<key>SELF_SERVICE_ICON</key>
@@ -28,7 +28,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.rtrouton.pkg.microsoftteams</string>
+	<string>com.github.dshore-aspen.pkg.microsoftteams</string>
 	<key>Process</key>
 	<array>
 		<dict>
