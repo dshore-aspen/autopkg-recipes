@@ -3,22 +3,22 @@
 <plist version="1.0">
    <dict>
       <key>Description</key>
-      <string>Downloads the latest version of the Microsoft Edge installer package and renames the package.</string>
+      <string>Downloads the latest version of the %NAME% installer package and renames the package.</string>
       <key>Identifier</key>
-      <string>com.github.dshore-aspen.pkg.microsoftedge</string>
+      <string>com.github.dshore-aspen.pkg.amazonworkspaces</string>
       <key>Input</key>
       <dict>
          <key>NAME</key>
-         <string>Microsoft Edge</string>
+         <string>Amazon WorkSpaces</string>
          <key>VENDOR</key>
-         <string>Microsoft</string>
+         <string>Amazon</string>
          <key>SOFTWARETITLE</key>
-         <string>Edge</string>
+         <string>WorkSpaces</string>
       </dict>
       <key>MinimumVersion</key>
       <string>1.0.0</string>
       <key>ParentRecipe</key>
-      <string>com.github.dshore-aspen.download.microsoftedge</string>
+      <string>com.github.dshore-aspen.download.amazonworkspaces</string>
       <key>Process</key>
       <array>
          <dict>
@@ -36,7 +36,7 @@
             <key>Arguments</key>
             <dict>
                <key>pattern</key>
-               <string>%RECIPE_CACHE_DIR%/downloads/unpack/*MicrosoftEdge*.pkg</string>
+               <string>%RECIPE_CACHE_DIR%/downloads/unpack/WorkSpaces.pkg</string>
             </dict>
             <key>Processor</key>
             <string>FileFinder</string>
@@ -56,7 +56,7 @@
             <key>Arguments</key>
             <dict>
                <key>input_plist_path</key>
-               <string>%RECIPE_CACHE_DIR%/downloads/payload/Microsoft Edge.app/Contents/Info.plist</string>
+               <string>%RECIPE_CACHE_DIR%/downloads/payload/WorkSpaces.app/Contents/Info.plist</string>
                <key>plist_version_key</key>
                <string>CFBundleShortVersionString</string>
             </dict>
